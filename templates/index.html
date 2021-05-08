@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+	<title>HTML and CSS "Hello World"</title>
+	<style>
+		body {
+			background-image: url("https://brunocapuano.files.wordpress.com/2016/06/swarmnado.gif");
+            height: 500px;
+            background-attachment: fixed;
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            background-size: 1000px 700px;
+		}
+		h1.hello {
+            margin-left: auto;
+            margin-right: auto;
+            width: 20em
+        }
+        h2.hello
+        {
+            margin-left: auto;
+            margin-right: auto;
+            width: 25em
+        }
+		h1 {
+            
+			color: #000000;    
+			font-size: 30px;
+			font-family: Menlo, Monaco, fixed-width;
+		}
+		
+		h2 {
+			color: #000000;
+            font-size: 20px;
+			font-family: "Source Code Pro", Menlo, Monaco, fixed-width;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="hello">HELLO WORLD FROM DOCKER!</h1>
+	<h2 class="hello">I am running from inisde the container <b> {{ hostname }} </b></h2>
+</body>
+</html>
